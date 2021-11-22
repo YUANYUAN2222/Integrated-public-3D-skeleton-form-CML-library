@@ -1,0 +1,120 @@
+drink water,drinking water,0
+eat meal,eating,0
+brush teeth,brushing teething,0
+brush hair,brushing hair,0
+drop,dropping,1
+pick up,picking up,2
+throw,throwing,1
+sit down,sitting,0
+stand up,stand up,0
+clapping,clapping,0
+reading,reading,0
+writing,writing,0
+tear up paper,tear up paper,0
+put on jacket,wearing on clothes,0
+take off jacket,take off jacket,1
+put on a shoe,put on a shoe,0
+take off a shoe,take off a shoe,0
+put on glasses,wearing on glasses,0
+take off glasses,take off glasses,1
+put on a hat and cap,put on a hat and cap,0
+take off a hat and cap,take off a hat and cap,1
+cheer up,cheer up,0
+hand waving,waving,1
+kicking something,kicking,1
+reach into pocket,put something inside pocket,0
+hopping,hopping,1
+jump up,jumping,1
+phone call,calling phone,0
+play with phone and tablet,dialing phone,0
+type on a keyboard,working on computer,0
+point to something,pointing finger,0
+taking a selfie,taking a selfie,0
+check time (from watch),checking time,0
+rub two hands,rub two hands,0
+nod head and bow,nod head and bow,0
+shake head,shake head,0
+wipe face,wiping face,0
+salute,salute,0
+put palms together,put palms together,0
+cross hands in front,cross hands in front,0
+put on headphone,put on headphone,0
+take off headphone,take off headphone,0
+shoot at basket,basketball shooting,0
+bounce ball,basketball dribbling,0
+tennis bat swing,tennis swing,0
+juggle table tennis ball,table tennis,0
+hush,hushing,0
+flick hair,brushing hair,0
+thumb up,thumb up,0
+thumb down,thumb down,0
+make OK sign,make OK sign,0
+make victory sign,make victory sign,0
+staple book,staple book,0
+counting money,counting money,1
+cutting nails,cutting nails,3
+cutting paper,cutting paper,0
+snap fingers,snap fingers,0
+open bottle,open bottle,0
+sniff and smell,sniff and smell,0
+squat down,squats,2
+toss a coin,toss a coin,0
+fold paper,fold paper,0
+ball up paper,ball up paper,0
+play magic cube,play magic cube,0
+apply cream on face,apply cream on face,0
+apply cream on hand,apply cream on hand,0
+put on bag,put on bag,0
+take off bag,take off bag,0
+put object into bag,put object into bag,0
+take object out of bag,take object out of bag,0
+open a box,open a box,0
+move heavy objects,moving object,3
+shake fist,punching,1
+throw up cap and hat,throwing,1
+capitulate,capitulate,0
+cross arms,cross arms in the chest,0
+arm circles,rotate Arms,0
+arm swings,rotate Arms,0
+run on the spot,running,1
+butt kicks,kicking,1
+cross toe touch,cross toe touch,0
+side kick,kicking,1
+cough,cough,1
+staggering,staggering,1
+falling down,falling,1
+headache,headache,1
+chest pain,chest pain,1
+back pain,back pain,1
+neck pain,neck pain,1
+nausea and vomiting,vomiting,1
+fan self,fan self,0
+yawn,yawn,0
+stretch oneself,stretches,2
+blow nose,blow nose,0
+punch,punching,1
+kicking,kicking,1
+pushing,pushing,2
+pat on back,pat on back,0
+point finger,pointing finger,0
+hugging,hugging,0
+giving object,exchanging objects,0
+touch pocket,take out something from pocket,0
+shaking hands,shaking hands,0
+walking towards,walking,0
+walking apart,walking,0
+hit with object,hitting,1
+wield knife,wield knife,0
+knock over,falling,1
+grab stuff,hand catch,2
+shoot with gun,shooting,0
+step on foot,walking,0
+high-five,high five,0
+cheers and drink,drinking water,0
+carry object,carrying,2
+take a photo,taking photo,0
+follow,walking,0
+whisper,whisper,0
+exchange things,exchanging objects,0
+support somebody,support somebody,0
+rock-paper-scissors,rock-paper-scissors,0

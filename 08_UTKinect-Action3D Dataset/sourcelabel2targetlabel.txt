@@ -1,0 +1,10 @@
+walk,walking,0
+sitDown,sitting,0
+standUp,stand up,0
+pickUp,picking up,2
+carry,carrying,2
+throw,throwing,1
+push,pushing,2
+pull,pulling,2
+waveHands,waving,1
+clapHands,clapping,0

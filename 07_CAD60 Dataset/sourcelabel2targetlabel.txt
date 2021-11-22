@@ -1,0 +1,12 @@
+still,standing,0
+talking on the phone,calling phone,0
+writing on whiteboard,writing on whiteboard,0
+drinking water,drinking water,0
+rinsing mouth with water,rinsing mouth with water,0
+brushing teeth,brushing teething,0
+wearing contact lenses,wearing contact lenses,0
+talking on couch,sitting,0
+relaxing on couch,relaxing,0
+cooking (chopping),cooking,0
+opening pill container,opening pill container,0
+working on computer,working on computer,0

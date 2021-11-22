@@ -1,0 +1,8 @@
+approaching,walking,0
+departing,walking,0
+pushing,pushing,2
+kicking,kicking,1
+punching,punching,1
+exchanging objects,exchanging objects,0
+hugging,hugging,0
+shaking hands,shaking hands,0
