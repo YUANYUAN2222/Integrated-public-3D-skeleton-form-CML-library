@@ -1,0 +1,16 @@
+balance,t-Pose,0
+climbladder,climb up,1
+climbup,climb up,1
+duck,ducking,1
+hop,hopping,0
+kick,kicking,1
+leap,jumping,1
+punch,punching,1
+run,running,1
+stepback,walking,4
+stepfront,walking,4
+stepleft,walking,4
+stepright,walking,4
+twistleft,twists,2
+twistright,twists,2
+vault,vault,0

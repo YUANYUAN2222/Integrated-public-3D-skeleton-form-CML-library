@@ -1,0 +1,10 @@
+Hand clap (two hands),clapping,0
+Right hand catch,hand catch,2
+Right hand draw X,drawing,3
+Right hand draw circle,drawing,3
+Right hand draw tick,drawing,3
+Right hand forward punch,punching,1
+Right hand hammer,hammer,3
+Right hand high throw,throwing,1
+Right hand high wave,waving,1
+Right hand horizontal wave,waving,1

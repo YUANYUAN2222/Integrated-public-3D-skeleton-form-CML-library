@@ -1,0 +1,6 @@
+catch,hand catch,2
+draw_circle,drawing,3
+draw_tick,drawing,3
+draw_triangle,drawing,3
+knock,knocking,3
+throw,throwing,1

@@ -1,0 +1,51 @@
+bow,bowing,2
+brushing hair,brushing hair,0
+brushing teeth,brushing teething,0
+check time (from watch),checking time,0
+cheer up,cheer up,0
+clapping,clapping,0
+cross hands in front (say stop),cross hands in front,0
+drink water,drinking water,0
+drop,dropping,1
+falling,falling,1
+giving something to other person,exchanging objects,0
+hand waving,waving,1
+handshaking,shaking hands,0
+hopping (one foot jumping),hopping,1
+hugging other person,hugging,0
+jump up,jumping,1
+kicking other person,kicking,1
+kicking something,kicking,1
+make a phone call or answer phone,calling phone,0
+pat on back of other person,pat on back,0
+pickup,picking up,2
+playing with phone or tablet,dialing phone,0
+point finger at the other person,pointing finger,0
+pointing to something with finger,pointing finger,0
+punching or slapping other person,punching,1
+pushing other person,pushing,2
+put on a hat or cap,put on a hat and cap,0
+put something inside pocket,put something inside pocket,0
+reading,reading,0
+rub two hands together,rub two hands,0
+salute,salute,0
+sitting down,sitting,0
+standing up,stand up,0
+take off a hat or cap,take off a hat and cap,1
+take off glasses,take off glasses,1
+take off jacket,take off jacket,1
+take out something from pocket,take out something from pocket,0
+taking a selfie,taking a selfie,0
+tear up paper,tear up paper,0
+throw,throwing,1
+touch back (backache),back pain,1
+touch chest (stomachache or heart pain),chest pain,1
+touch head (headache),headache,1
+touch neck (neckache),neck pain,1
+typing on a keyboard,working on computer,0
+use a fan (with hand or paper) or feeling warm,fan self,0
+wear jacket,wearing on clothes,0
+wear on glasses,wearing on glasses,0
+wipe face,wiping face,0
+writing,writing,0
+eat meal or snack,eating,0

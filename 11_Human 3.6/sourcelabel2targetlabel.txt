@@ -1,0 +1,15 @@
+activities while seated,lay down,4
+directions,direct traffic,0
+discussion,standing,4
+eating,eating,0
+greeting,greeting,0
+making purchases,purchases,0
+posing,posing,0
+sitting on chair,sitting,4
+smoking,smoking,1
+taking photo,taking photo,0
+talking on the phone,calling phone,1
+waiting,waiting,0
+walking,walking,4
+walking dog,walking dog,0
+walking together,walking,4

@@ -1,0 +1,12 @@
+drinking,drinking water,0
+pouring,pouring,0
+calling phone,calling phone,0
+playing phone,dialing phone,0
+wearing backpacks,put on bag,0
+packing backpacks,put object into bag,0
+sitting chair,sitting,0
+moving chair,moving object,3
+taking out wallet,take out something from pocket,0
+taking from wallet,purchases,0
+mopping,mopping,2
+sweeping,sweeping,2

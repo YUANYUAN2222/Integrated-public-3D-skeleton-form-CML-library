@@ -1,0 +1,27 @@
+right arm swipe to the left,waving,1
+right arm swipe to the right,waving,1
+right hand wave,waving,1
+two hand front clap,clapping,0
+right arm throw,throwing,1
+cross arms in the chest,cross arms in the chest,0
+basketball shoot,basketball shooting,0
+right hand draw x,drawing,3
+right hand draw circle (clockwise),drawing,3
+right hand draw circle (counter clockwise),drawing,3
+draw triangle,drawing,3
+bowling (right hand),bowling,0
+front boxing,punching,1
+baseball swing from right,baseball swing,0
+tennis right hand forehand swing,tennis swing,0
+arm curl (two arms),arm curl,2
+tennis serve,tennis serve,0
+two hand push,pushing,2
+right hand knock on door,knocking,3
+right hand catch an object,hand catch,2
+right hand pick up and throw,pick up and throw,1
+jogging in place,jogging,1
+walking in place,walking,0
+sit to stand,stand up,0
+stand to sit,sitting,0
+forward lunge (left foot forward),walking,0
+squat (two arms stretch out),squats,2

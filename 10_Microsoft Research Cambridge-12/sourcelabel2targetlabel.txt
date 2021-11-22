@@ -1,0 +1,12 @@
+Beat both,beating,1
+Bow,bowing,2
+Change weapon,change weapon,0
+Duck,ducking,1
+Goggles,wearing on glasses,0
+Had enough,had enough,0
+Kick,kicking,1
+Throw,throwing,1
+Wind it up,wind it up,0
+push right,pushing,2
+shoot,shooting,0
+start system,start system,0
