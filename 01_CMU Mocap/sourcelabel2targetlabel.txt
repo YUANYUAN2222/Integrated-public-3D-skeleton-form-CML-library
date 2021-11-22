@@ -1,0 +1,172 @@
+answer the phone,calling phone,0
+avoid attack,ducking,1
+back somersault,backflip,0
+backflip,backflip,0
+backward,walking,0
+bang on high object,knocking,3
+baseball pitch,baseball action,0
+basketball dribble,basketball dribbling,0
+basketball shoot,basketball shooting,0
+basketball signals,basketball signals,0
+bend,bending,2
+bend push heavy object,pushing,2
+bend walk,walking,0
+bolt tightening with electric drill,bolt tightening or loosening,3
+bow,bowing,2
+combing hair,brushing hair,0
+brushing teeth,brushing teething,0
+carry suitcase,carry suitcase,0
+cartwheels,cartwheel,0
+chopping wood,chopping wood,3
+clap,clapping,0
+climb down,climb down,1
+climb up,climb up,1
+closing a box,close a box,0
+closing umbrella,closing umbrella,0
+coiling a rope,coiling a rope,3
+crawl,crawling,2
+curtsey,curtsey,0
+dance,dance,0
+descend from high,dropping,1
+dialing phone,dialing phone,0
+digging,digging,3
+direct traffic,direct traffic,0
+dragging,pulling,2
+draw circle,drawing,3
+drink water,drinking water,0
+driving,driving,3
+ducking,ducking,1
+dynamic calibration,dynamic calibration,3
+eating,eating,0
+elbow to knee,elbow to knee,2
+fall,falling,1
+fishing,fishing,0
+get up from floor,get up from floor,0
+golf swing,golf swing,0
+go under,squats,2
+grab,hand catch,2
+hand signals,hand signals,0
+hang,hanging,1
+hanging a picture,hanging a picture,0
+holding a baby,holding a baby,0
+imitating animals,imitating animals,0
+jump,jumping,1
+jump 360,jumping,1
+jump down,dropping,1
+jump jacks,jumping jack,1
+jump kick,kicking,1
+jump over,jumping,1
+jump single foot,hopping,1
+kick,kicking,1
+laugh,laugh,0
+lay down,lay down,1
+lean back,lean back,1
+leaning walk,walking,0
+lift open window,lift open window,0
+look around,look around,0
+look around with flash light,look around,0
+loosening or tightening bolt with wrench,bolt tightening or loosening,3
+making dough,making dough,0
+marching,marching,0
+mixing water,mixing water,0
+moonwalk,moonwalk,0
+moving a box,moving object,3
+moving a stool,moving object,3
+nursery rhyme,nursery rhyme,0
+opening a box,open a box,0
+opening umbrella,opening umbrella,0
+over roll,backflip,0
+painting,drawing,3
+paying for something,purchases,0
+pick up,picking up,2
+placing golf ball,placing golfball,0
+placing golf tee,placing golftee,0
+planting a flower,planting a flower,0
+playing drums,playing drums,0
+playing piano,playing piano,0
+playing violin,playing violin,0
+poking ground,poking ground,3
+pour water,pouring,0
+pull,pulling,2
+pull heavy object,pulling,2
+nailing with hammer,hammer,3
+punch,punching,1
+push a swing,pushing,2
+push heavy object,pushing,2
+pushing,pushing,2
+push object that is high in air,pushing,2
+put on cap,put on a hat and cap,0
+put on clothes,wearing on clothes,0
+puts hands on B's shoulders,puts hands on B's shoulders,0
+putting on headphones,put on headphone,0
+reach for,hand catch,2
+rub shoulder,rub shoulder,0
+run,running,1
+sawing,sawing,3
+screwing or unscrewing bolt with screwdriver,bolt tightening or loosening,3
+search,look around,0
+sewing,sewing,0
+shake hands,shaking hands,0
+shaving,shaving,0
+shelter someone form harm,shelter some one form harm,0
+shooting,shooting,0
+side draw circle,drawing,3
+side twists,twists,2
+sideways,walking,0
+sit,sitting,0
+sit on high stool,sitting,0
+sit on middle stool,sitting,0
+sit on ground,sitting,0
+sit with dangle legs,sitting,0
+skateboard,skateboard,0
+smoking,smoking,0
+sneaking,sneaking,0
+soccer,soccer,0
+spin,spin,0
+spray deodorant,spray deodorant,0
+squats,squats,2
+stair down,stair down,1
+stair up,stair up,1
+stand mixing batter,stand mixing batter,0
+stand slicing object,stand slicing object,0
+stand up,stand up,0
+step over,step over,1
+still,standing,0
+story,story,0
+stretches,stretches,2
+sweep floor,sweeping,2
+swimming,swimming,0
+swimming-BackStroke,swimming,0
+swimming-BreastStroke,swimming,0
+swimming-FlyStroke,swimming,0
+swimming-FreeStyle,swimming,0
+swing,swing,1
+swordplay,swordplay,0
+t-pose,t-Pose,0
+tai chi,tai chi,0
+throw,throwing,1
+throw and catch ball,throw and catch ball,1
+turn,turning,0
+twists,twists,2
+typing on a laptop,working on computer,0
+unscrew or screw bottle cap,open bottle,0
+vacuuming,vacuuming,3
+wait for bus,waiting,0
+walk,walking,0
+walk forward,walking,0
+walk on toes bent,walking,0
+walk on the ball,walking,0
+walk on uneven terrain,walk on uneven terrain,1
+walk swinging shoulder,walking,0
+walk with arms out,walking,0
+walk with hurt right leg,walking,0
+walk with knees bent,walking,0
+wash self,wash self,0
+wash windows,wash windows,0
+waving,waving,1
+weight lifting,weight lifting,2
+wipe floor,wipe floor,2
+wrestle,wrestle,1
+writing on a chalkboard,writing on whiteboard,0
+yawn,yawn,0
+yoga,yoga,0
