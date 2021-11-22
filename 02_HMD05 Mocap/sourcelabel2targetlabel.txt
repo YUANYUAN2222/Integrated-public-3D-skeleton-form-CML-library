@@ -1,0 +1,26 @@
+cartwheel,cartwheel,0
+clap,clapping,0
+clap above head,clap above head,0
+deposit,walking,0
+elbow to knee,elbow to knee,2
+grab,hand catch,2
+hit head,hit head,1
+jump,jumping,1
+jump down,dropping,1
+jumping Jack,jumping jack,1
+jump one leg,hopping,1
+kick,kicking,1
+lie Down Floor,lay down,1
+punch,punching,1
+rotate Arms,rotate Arms,0
+run,running,1
+sit Down,sitting,0
+skier,skier,0
+sneak,sneaking,0
+squat,squats,2
+stair Down,stair down,1
+stair Up,stair up,1
+stand Up,stand up,0
+throw,throwing,1
+turn,turning,0
+walk,walking,0

@@ -1,0 +1,11 @@
+bending,bending,2
+clapping,clapping,0
+jumping,jumping,1
+jumping jacks,jumping jack,0
+punching,punching,1
+sit down,sitting,4
+sit down and stand up,sit down and stand up,4
+stand up,stand up,4
+throwing,throwing,1
+waving one hand,cartwheel,0
+waving two hands,cartwheel,0
