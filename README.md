@@ -46,7 +46,7 @@ The missing joint data could be computed with neighbor joint interpolation. The 
                                                                                                                                                       
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" width="800" height="615" ><br/>
 <div align=center>Skeleton data visualized in Origin
-</div>
+</center>
 
 ### (2)RGB/RGBD-based video -----SUSY 3D dataset
 * Processing the number and position of joints<br/>
