@@ -31,7 +31,7 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (5)	Processing the file formats<br/>
 ## Case study
 ### (1)IMU-based dataset------Berkeley_MHAD 
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png"  width="300" height="300" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%872.png" width="300" height="300"><br/>
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png"  width="300" height="300" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/06.jpg" width="300" height="300"><br/>
 
 
 * Processing the number and position of joints<br/>
