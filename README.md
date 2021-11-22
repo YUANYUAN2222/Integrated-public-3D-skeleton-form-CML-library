@@ -31,8 +31,8 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (5)	Processing the file formats<br/>
 ## Case study
 ### (1)IMU-based dataset------Berkeley_MHAD 
-<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png"  > <br/>
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" ><br/>
+<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png" width="800" height="615"" > <br/>
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" width="800" height="615" ><br/>
 
 
 
@@ -46,7 +46,7 @@ The missing joint data could be computed with neighbor joint interpolation. The 
 * Adopt Coordination transformation
 
 ### (2)RGB/RGBD-based video -----SUSY 3D dataset
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/06.png" ><br/>
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/06.png" width="800" height="615" ><br/>
 * Processing the number and position of joints<br/>
 20nodes = [4，3，2，9，10，12，5，6，8，13，14，16，17，18，20，1，11，15，7，19]<br/>
 15nodes = [4，3，2，9，10，12，5，6，8，17，18，20，13，14，16]<br/>
