@@ -1,0 +1,9 @@
+The process of integreting CMU dataset to CML.
+(1) USing the folder "matlab-AMC-CMU" to parse skeleton data and stored in the file 'processed'. and the parse tool reference from 'https://github.com/lawrennd/mocap'
+(2) The code of "data_process_unit"processe the skeleton data form .mat to .txt. and the following issues will be resolved during this process.
+* Processing the number and position of joints
+* Processing the sampling rate
+* Processing the unit
+* Transformation coordinate system
+* Processing the file format
+(3) The code of "txt2json" store skeleton data in the form of Key-value and add full information related to the data summary, original dataset source, and joint structure and so on. 
