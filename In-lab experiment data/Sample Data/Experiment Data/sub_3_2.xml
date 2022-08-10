@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters Version="1">
+    <LostDataFit>0</LostDataFit>
+    <Avatar Index="0">
+        <Smooth Enable="0">
+            <HipDisp>5</HipDisp>
+            <FeetDisp>3</FeetDisp>
+            <HipRot>5</HipRot>
+            <FeetRot>3</FeetRot>
+            <GlobalDisp>3</GlobalDisp>
+            <GlobalRot>3</GlobalRot>
+        </Smooth>
+        <Contact>
+            <hipH>1.200000</hipH>
+            <acmm>0.800000</acmm>
+            <constrain>1</constrain>
+            <constrainHands>0</constrainHands>
+            <constrainHip>0</constrainHip>
+        </Contact>
+        <Stiffness>
+            <jointStiffness>0.630000</jointStiffness>
+            <stepStiffness>0.850000</stepStiffness>
+            <stepConstraint>0.255000</stepConstraint>
+        </Stiffness>
+        <ClimbConstrain>0</ClimbConstrain>
+        <MagneticImmune>0</MagneticImmune>
+        <Pitch>0.000000</Pitch>
+        <Roll>0.000000</Roll>
+        <Yaw>0.000000</Yaw>
+        <GroundLevel>0.000000</GroundLevel>
+    </Avatar>
+</Parameters>
