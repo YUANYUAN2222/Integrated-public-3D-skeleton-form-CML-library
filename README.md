@@ -116,31 +116,4 @@ Joint number -> Joint name <br/>
 * Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
 
 
-## (2)Berkeley_MHAD dataset (IMU-based dataset)
-
-* Processing the number and position of joints<br/>
-30joint -----15/20joint, Adjust the order of nodes and supplement missing data.<br/>
-15nodes = [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26]<br/>
-20nodes= [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26,1 missing wrist and ankle]<br/>
-The missing joint data could be computed with neighbor joint interpolation. The nonlinear interpolation utilized the Multi-Layer Perceptron (MLP) model of the scikit-learn package.<br/>
-* 480 frames per second (fps)-----30fps
-* Millimeter-----meter
-* Adopt Coordination transformation
-
-<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png" width="800" height="615" >
-<div align=center> Skeleton data visualized in Matlab
-                                                                                                                                                      
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" width="800" height="615" ><br/>
-<div align=center>Skeleton data visualized in Origin
-</center>
-
-## (3)SUSY 3D dataset (RGB/RGBD-based video)
-* Processing the number and position of joints<br/>
-20nodes = [4，3，2，9，10，12，5，6，8，13，14，16，17，18，20，1，11，15，7，19]<br/>
-15nodes = [4，3，2，9，10，12，5，6，8，17，18，20，13，14，16]<br/>
-
-* Adopt Coordination transformation
-
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/06.png" width="800" height="615" ><br/>
-<div align=center> Skeleton data visualized in Origin
 
