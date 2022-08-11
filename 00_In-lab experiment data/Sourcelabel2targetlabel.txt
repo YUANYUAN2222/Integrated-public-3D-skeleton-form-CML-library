@@ -1,0 +1,10 @@
+01_working overheading,hand catch,2
+02_Squatting,squats,2
+03_second complex work,moving object,3
+04_reaching,hand catch,2
+05_neck bending,bending,2
+06_kneeling,lay down,4
+07_climb work_1,climb up,1
+08_climb work,climb up,1
+09_bring somewhere to somewhere,carrying,2
+10_back bending,bending,2
