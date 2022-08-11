@@ -90,11 +90,16 @@ Joint number -> Joint name <br/>
 * Visualization json file for check format in Blender.
 
 
-## CMU dataset 
-Sample subject01-01(http://mocap.cs.cmu.edu/search.php?subjectnumber=1), rough tag: forward jump turn around.
-<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/CMU_01_lable.jpg" >  
+## (1) 00_In-lab experiment data
+* The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
+* The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="400" height="220"> <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/03_second%20complex%20work.gif" width="400" height="400" > 
+
+
+
 * Left picture showed the total frame motion: 1-668 frame.<br/>
 * Right picture shows the enclosured frame motion.Jump1:1-248 frame,Turn1:240-295 frame,Jump2:295-480 frame,Turn2:480-530 frame,Jump3:530-668 frame.<br/>
 
@@ -109,20 +114,12 @@ Sample subject01-01(http://mocap.cs.cmu.edu/search.php?subjectnumber=1), rough t
 * Left picture showed the label of dataset. <br/>
 * Right picture showed the motion of dataset. <br/>
 
-# How to use
-
-Please upload the json file folder to the path '.\json\20nodes', or revise the path in line 13 of main.py, like this <br/>
-```
-fdr_path = r'./json/20nodes'
-python mian.py 
-```
 
 
 
 
-### (1) 00_In-lab experiment data
-* The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
-* The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
+
+
 
 
 <img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="800" height="615" >
