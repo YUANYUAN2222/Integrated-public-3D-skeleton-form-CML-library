@@ -30,6 +30,96 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (4)	Transformation coordinate system<br/>
 (5)	Processing the file formats<br/>
 ## Case study
+
+
+## Introduction
+
+### Construction Dataset structure
+#### 15 joints Skeleton data structure           
+Frame #, P(1),P(2),P(3),...,P(15)，<br/>
+ P(i)=>(x,y,z) position of ith joint，values are in meters <br/>
+Joint number -> Joint name <br/>
+            'Head': 0,  <br/>
+            'ShoulderCenter': 1, <br/>
+            'Spine': 2, <br/>
+            'LeftShoulder': 3, <br/>
+            'LeftElbow': 4, <br/>
+            'LeftHand': 5, <br/>
+            'RightShoulder': 6, <br/>
+            'RightElbow': 7, <br/>
+            'RightHand': 8, <br/>
+            'LeftHip': 9, <br/>
+            'LeftKnee': 10, <br/>
+            'LeftFoot': 11, <br/>
+            'RightHip': 12, <br/>
+            'RightKnee': 13, <br/>
+            'RightFoot': 14, <br/>
+
+#### 20 joints Skeleton data structure   
+Frame #, P(1),P(2),P(3),...,P(20)，<br/>
+ P(i) =>(x,y,z) position of ith joint，values are in meters <br/>
+Joint number -> Joint name <br/>
+            'Head': 0,  <br/>
+            'ShoulderCenter': 1, <br/>
+            'Spine': 2, <br/>
+            'LeftShoulder': 3, <br/>
+            'LeftElbow': 4, <br/>
+            'LeftHand': 5, <br/>
+            'RightShoulder': 6, <br/>
+            'RightElbow': 7, <br/>
+            'RightHand': 8, <br/>
+            'LeftHip': 9, <br/>
+            'LeftKnee': 10, <br/>
+            'LeftFoot': 11, <br/>
+            'RightHip': 12, <br/>
+            'RightKnee': 13, <br/>
+            'RightFoot': 14, <br/>
+            'HipCenter': 15, <br/>
+            'LeftWrist': 16, <br/>
+            'LeftAnkle': 17, <br/>
+            'RightWrist': 18, <br/>
+            'RightAnkle': 19, <br/>
+# Environment
+* windows 10
+* anaconda 
+* python 3.7
+* numpy
+# Case study
+## Advantages 
+* Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
+* Visualization json file for check format in Blender.
+
+
+## CMU dataset 
+Sample subject01-01(http://mocap.cs.cmu.edu/search.php?subjectnumber=1), rough tag: forward jump turn around.
+<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/CMU_01_lable.jpg" >  
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="400" height="220"> <br/>
+* Left picture showed the total frame motion: 1-668 frame.<br/>
+* Right picture shows the enclosured frame motion.Jump1:1-248 frame,Turn1:240-295 frame,Jump2:295-480 frame,Turn2:480-530 frame,Jump3:530-668 frame.<br/>
+
+## UTKA dataset 
+
+<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/UTKA_label.png" width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/UTKA.gif" width="400" height="220"><br/>
+* Left picture showed the label of dataset. <br/>
+* Right picture showed the motion of dataset. <br/>
+
+## HDM05 dataset 
+<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/HDM05_label.jpg"  width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/HDM05.gif" width="400" height="220"><br/>
+* Left picture showed the label of dataset. <br/>
+* Right picture showed the motion of dataset. <br/>
+
+# How to use
+
+Please upload the json file folder to the path '.\json\20nodes', or revise the path in line 13 of main.py, like this <br/>
+```
+fdr_path = r'./json/20nodes'
+python mian.py 
+```
+
+
+
+
 ### (1) 00_In-lab experiment data
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
 * The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
