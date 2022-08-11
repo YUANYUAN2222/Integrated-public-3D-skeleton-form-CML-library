@@ -111,10 +111,9 @@ Joint number -> Joint name <br/>
 * Left picture: {"original label": "07_climb work_1", "target label": "climb up", "action type": 1} <br/>
 * Right picture:  {"original label": "08_climb work", "target label": "climb up", "action type": 1} <br/>
 
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/09_bring%20somewhere%20to%20somewhere.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/10_back%20bending.gif.gif" width="450" height="380" > 
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/09_bring%20somewhere%20to%20somewhere.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/10_back%20bending.gif" width="450" height="380" > 
 * Left picture: {"original label": "09_bring somewhere to somewhere", "target label": "carrying", "action type": 2} <br/>
 * Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
-
 
 
 ## (2)Berkeley_MHAD dataset (IMU-based dataset)
