@@ -95,48 +95,29 @@ Joint number -> Joint name <br/>
 * The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
-* Left picture 01_working overheading <br/>
-* Right picture 02_Squatting.<br/>
+* Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
+* Right picture:  {"original label": "02_Squatting", "target label": "squats", "action type": 2} <br/>
 
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/03_second%20complex%20work.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/04_reaching.gif" width="450" height="380" > 
+* Left picture: {"original label": "03_second complex work", "target label": "moving object", "action type": 3} <br/>
+* Right picture:  {"original label": "04_reaching", "target label": "hand catch", "action type": 2} <br/>
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/05_neck%20bending.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/06_kneeling.gif" width="450" height="380" > 
+* Left picture: {"original label": "05_neck bending", "target label": "bending", "action type": 2} <br/>
+* Right picture:  {"original label": "06_kneeling", "target label": "lay down", "action type": 4} <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/07_climb%20work_1.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/08_climb%20work.gif" width="450" height="380" > 
+* Left picture: {"original label": "07_climb work_1", "target label": "climb up", "action type": 1} <br/>
+* Right picture:  {"original label": "08_climb work", "target label": "climb up", "action type": 1} <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/09_bring%20somewhere%20to%20somewhere.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/10_back%20bending.gif.gif" width="450" height="380" > 
+* Left picture: {"original label": "09_bring somewhere to somewhere", "target label": "carrying", "action type": 2} <br/>
+* Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
 
 
 
-
-* Left picture showed the total frame motion: 1-668 frame.<br/>
-* Right picture shows the enclosured frame motion.Jump1:1-248 frame,Turn1:240-295 frame,Jump2:295-480 frame,Turn2:480-530 frame,Jump3:530-668 frame.<br/>
-
-## UTKA dataset 
-
-<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/UTKA_label.png" width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/UTKA.gif" width="400" height="220"><br/>
-* Left picture showed the label of dataset. <br/>
-* Right picture showed the motion of dataset. <br/>
-
-## HDM05 dataset 
-<img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/HDM05_label.jpg"  width="400" height="220" >    <img src="https://github.com/YUANYUAN2222/GIT_json_to_BVH/blob/main/HDM05.gif" width="400" height="220"><br/>
-* Left picture showed the label of dataset. <br/>
-* Right picture showed the motion of dataset. <br/>
-
-
-
-
-
-
-
-
-
-<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="800" height="615" >
-<div align=center> Skeleton data visualized in Matlab
-                                                                                                                                                      
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" width="800" height="615" ><br/>
-<div align=
-
-
-
-### (1)IMU-based dataset------Berkeley_MHAD 
+## (2)Berkeley_MHAD dataset (IMU-based dataset)
 
 * Processing the number and position of joints<br/>
 30joint -----15/20joint, Adjust the order of nodes and supplement missing data.<br/>
@@ -154,7 +135,7 @@ The missing joint data could be computed with neighbor joint interpolation. The 
 <div align=center>Skeleton data visualized in Origin
 </center>
 
-### (2)RGB/RGBD-based video -----SUSY 3D dataset
+## (3)SUSY 3D dataset (RGB/RGBD-based video)
 * Processing the number and position of joints<br/>
 20nodes = [4，3，2，9，10，12，5，6，8，13，14，16，17，18，20，1，11，15，7，19]<br/>
 15nodes = [4，3，2，9，10，12，5，6，8，17，18，20，13，14，16]<br/>
