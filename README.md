@@ -95,6 +95,9 @@ Joint number -> Joint name <br/>
 * The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
+* Left picture 01_working overheading <br/>
+* Right picture 02_Squatting.<br/>
+
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/03_second%20complex%20work.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/04_reaching.gif" width="450" height="380" > 
 
