@@ -1,4 +1,4 @@
-The process of integreting 08_UTKinect-Action3D Dataset to CML.
+The process of integreting 08_UTKinect-Action3D Dataset to CML dataset.
 (1) The code of "data_process"processe the skeleton data form .mat to .txt. and the following issues will be resolved during this process.
 * Processing the number and position of joints
 * Processing the sampling rate
