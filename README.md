@@ -94,7 +94,7 @@ Joint number -> Joint name <br/>
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
 * The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
 
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="400" height="350" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="400" height="350"> <br/>
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
 * Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
 * Right picture:  {"original label": "02_Squatting", "target label": "squats", "action type": 2} <br/>
 
