@@ -94,7 +94,7 @@ Joint number -> Joint name <br/>
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
 * The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
 
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="400" height="350" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="400" height="350" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="400" height="350"> <br/>
 * Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
 * Right picture:  {"original label": "02_Squatting", "target label": "squats", "action type": 2} <br/>
 
@@ -115,20 +115,7 @@ Joint number -> Joint name <br/>
 * Left picture: {"original label": "09_bring somewhere to somewhere", "target label": "carrying", "action type": 2} <br/>
 * Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
 
-## (2)Berkeley_MHAD dataset (IMU-based dataset)
-
-* Processing the number and position of joints<br/>
-30joint -----15/20joint, Adjust the order of nodes and supplement missing data.<br/>
-15nodes = [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26]<br/>
-20nodes= [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26,1 missing wrist and ankle]<br/>
-The missing joint data could be computed with neighbor joint interpolation. The nonlinear interpolation utilized the Multi-Layer Perceptron (MLP) model of the scikit-learn package.<br/>
-* 480 frames per second (fps)-----30fps
-* Millimeter-----meter
-* Adopt Coordination transformation
-
-<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png" width="800" height="615" >
-<div align=center> Skeleton data visualized in Matlab
-                                                                                                                                                      
+                                                                                     
 
 
 
