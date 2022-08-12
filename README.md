@@ -30,7 +30,92 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (4)	Transformation coordinate system<br/>
 (5)	Processing the file formats<br/>
 ## Case study
-### (1)IMU-based dataset------Berkeley_MHAD 
+
+
+## Introduction
+
+### Construction Dataset structure
+#### 15 joints Skeleton data structure           
+Frame #, P(1),P(2),P(3),...,P(15)，<br/>
+ P(i)=>(x,y,z) position of ith joint，values are in meters <br/>
+Joint number -> Joint name <br/>
+            'Head': 0,  <br/>
+            'ShoulderCenter': 1, <br/>
+            'Spine': 2, <br/>
+            'LeftShoulder': 3, <br/>
+            'LeftElbow': 4, <br/>
+            'LeftHand': 5, <br/>
+            'RightShoulder': 6, <br/>
+            'RightElbow': 7, <br/>
+            'RightHand': 8, <br/>
+            'LeftHip': 9, <br/>
+            'LeftKnee': 10, <br/>
+            'LeftFoot': 11, <br/>
+            'RightHip': 12, <br/>
+            'RightKnee': 13, <br/>
+            'RightFoot': 14, <br/>
+
+#### 20 joints Skeleton data structure   
+Frame #, P(1),P(2),P(3),...,P(20)，<br/>
+ P(i) =>(x,y,z) position of ith joint，values are in meters <br/>
+Joint number -> Joint name <br/>
+            'Head': 0,  <br/>
+            'ShoulderCenter': 1, <br/>
+            'Spine': 2, <br/>
+            'LeftShoulder': 3, <br/>
+            'LeftElbow': 4, <br/>
+            'LeftHand': 5, <br/>
+            'RightShoulder': 6, <br/>
+            'RightElbow': 7, <br/>
+            'RightHand': 8, <br/>
+            'LeftHip': 9, <br/>
+            'LeftKnee': 10, <br/>
+            'LeftFoot': 11, <br/>
+            'RightHip': 12, <br/>
+            'RightKnee': 13, <br/>
+            'RightFoot': 14, <br/>
+            'HipCenter': 15, <br/>
+            'LeftWrist': 16, <br/>
+            'LeftAnkle': 17, <br/>
+            'RightWrist': 18, <br/>
+            'RightAnkle': 19, <br/>
+# Environment
+* windows 10
+* anaconda 
+* python 3.7
+* numpy
+# Case study
+## Advantages 
+* Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
+* Visualization json file for check format in Blender.
+
+
+## (1) 00_In-lab experiment data
+* The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
+* The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
+* Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
+* Right picture:  {"original label": "02_Squatting", "target label": "squats", "action type": 2} <br/>
+
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/03_second%20complex%20work.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/04_reaching.gif" width="450" height="380" > 
+* Left picture: {"original label": "03_second complex work", "target label": "moving object", "action type": 3} <br/>
+* Right picture:  {"original label": "04_reaching", "target label": "hand catch", "action type": 2} <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/05_neck%20bending.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/06_kneeling.gif" width="450" height="380" > 
+* Left picture: {"original label": "05_neck bending", "target label": "bending", "action type": 2} <br/>
+* Right picture:  {"original label": "06_kneeling", "target label": "lay down", "action type": 4} <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/07_climb%20work_1.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/08_climb%20work.gif" width="450" height="380" > 
+* Left picture: {"original label": "07_climb work_1", "target label": "climb up", "action type": 1} <br/>
+* Right picture:  {"original label": "08_climb work", "target label": "climb up", "action type": 1} <br/>
+
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/09_bring%20somewhere%20to%20somewhere.gif" width="450" height="380" > <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/10_back%20bending.gif" width="450" height="380" > 
+* Left picture: {"original label": "09_bring somewhere to somewhere", "target label": "carrying", "action type": 2} <br/>
+* Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
+
+## (2)Berkeley_MHAD dataset (IMU-based dataset)
 
 * Processing the number and position of joints<br/>
 30joint -----15/20joint, Adjust the order of nodes and supplement missing data.<br/>
@@ -44,17 +129,6 @@ The missing joint data could be computed with neighbor joint interpolation. The 
 <img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png" width="800" height="615" >
 <div align=center> Skeleton data visualized in Matlab
                                                                                                                                                       
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/07ber.png" width="800" height="615" ><br/>
-<div align=center>Skeleton data visualized in Origin
-</center>
 
-### (2)RGB/RGBD-based video -----SUSY 3D dataset
-* Processing the number and position of joints<br/>
-20nodes = [4，3，2，9，10，12，5，6，8，13，14，16，17，18，20，1，11，15，7，19]<br/>
-15nodes = [4，3，2，9，10，12，5，6，8，17，18，20，13，14，16]<br/>
 
-* Adopt Coordination transformation
-
-<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/06.png" width="800" height="615" ><br/>
-<div align=center> Skeleton data visualized in Origin
 
