@@ -86,11 +86,32 @@ Joint number -> Joint name <br/>
 ## Advantages 
 * Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
 * Visualization json file for check format in Blender.
+# Dataset Alignment
+* Skeletal Structure Alignment ------Cut down joint number into 15/20-joint system
+* All samples’ units will be converted into meters
+* Resampling,  125hz----30hz
+* Coordination Transformation
+# Data Records---The CML data format for storage is JSON for sharing 
+* The JSON file can be divided into two parts. 
+* The first “meta-data” part only stores the information related to the data summary, the original dataset source, and the joint structure 
+* The second “formal-data” part only includes “tdata” (an object encloses frames of all joints over time) and “bdata” (an object includes time-series data of each joint). 
+
+
+
+
+
+
+
+
+
 
 
 ## (1) 00_In-lab experiment data
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point.
 * 
+
+
+
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
 * Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
