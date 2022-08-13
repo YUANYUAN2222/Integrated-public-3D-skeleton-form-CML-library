@@ -92,13 +92,12 @@ Joint number -> Joint name <br/>
 * Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
 * Visualization json file for check format in Blender.
 
-# Data Records---The CML data format for storage is JSON for sharing 
+# Data Records
+* The CML data format for storage is JSON for sharing 
 * The JSON file can be divided into two parts. 
 * The first “meta-data” part only stores the information related to the data summary, the original dataset source, and the joint structure 
 * The second “formal-data” part only includes “tdata” (an object encloses frames of all joints over time) and “bdata” (an object includes time-series data of each joint). 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/Json_Structure.png" width="900" height="300" >
-
-
 
 # Case study
 
