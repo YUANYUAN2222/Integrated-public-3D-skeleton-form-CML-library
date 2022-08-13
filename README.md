@@ -109,6 +109,7 @@ Joint number -> Joint name <br/>
 * All samples’ units will be converted into meters
 * Resampling,  125hz----30hz
 * Coordination Transformation
+## Visualize in MATLAB
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
 * Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
