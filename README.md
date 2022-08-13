@@ -3,7 +3,15 @@
 
 ## Introduction
 
+To that end, the developed construction motion library contains 225 types of activities and 146,480 samples; among them, 73 types of activities and 61,275 samples are highly related to construction activities.
+
+
+
+挑选出data source = ['CMU','HDM05','Berkeley','SBU']，四个可以修改的数据集。
+CML contains 137 types of activities and 6121+10 samples; among them, 53 types of activities and 4323+10 samples are highly related to construction activities.
+
 Custom code in the generation of datasets
+
 ## Obtain reliable raw skeleton
 
 To obtain reliable raw skeleton data, we manually selected and download available 3D skeleton sources form the official website of the institutions.<br/>
