@@ -96,6 +96,7 @@ Joint number -> Joint name <br/>
 * The JSON file can be divided into two parts. 
 * The first “meta-data” part only stores the information related to the data summary, the original dataset source, and the joint structure 
 * The second “formal-data” part only includes “tdata” (an object encloses frames of all joints over time) and “bdata” (an object includes time-series data of each joint). 
+<img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/Json_Structure.png" width="600" height="200" >
 
 
 
