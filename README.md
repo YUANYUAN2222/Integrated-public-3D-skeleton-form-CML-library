@@ -31,8 +31,8 @@ UTD MHAD2 https://personal.utdallas.edu/~kehtar/UTD-MHAD.html<br/>
 UTD MHAD3 https://personal.utdallas.edu/~kehtar/UTD-MHAD.html<br/>
 
 ## Equipment differences.
-According to different collection equipment, human motion can be captured through two streams of technologies, including RGB/RGBD-based video processing and IMU-based wearable sensing. Differences in the choice of technologies will result in differences in the final data stored format.<br/> 
-For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF/AMC, including NTU+RGBD 120, SBU Kinect Interaction Dataset, CAD 60 dataset. The data format of IMU-based dataset was stored in TXT or CSV, including CMU Motion Capture Dataset, HDM05 Mocap Database and Berkeley MHAD dataset<br/>
+* According to different collection equipment, human motion can be captured through two streams of technologies, including RGB/RGBD-based video processing and IMU-based wearable sensing. Differences in the choice of technologies will result in differences in the final data stored format.<br/> 
+* For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF/AMC, including NTU+RGBD 120, SBU Kinect Interaction Dataset, CAD 60 dataset. The data format of IMU-based dataset was stored in TXT or CSV, including CMU Motion Capture Dataset, HDM05 Mocap Database and Berkeley MHAD dataset<br/>
 
 ## General process of integrating data
 (1)	Processing the number and position of joints<br/>
