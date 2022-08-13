@@ -1,6 +1,11 @@
 # Integrated-public-3D-skeleton-form-CML-library
+
+
+## Introduction
+
 Custom code in the generation of datasets
 ## Obtain reliable raw skeleton
+
 To obtain reliable raw skeleton data, we manually selected and download available 3D skeleton sources form the official website of the institutions.<br/>
 CMU Mocap dataset http://mocap.cs.cmu.edu<br/>
 HMD05 Mocap dataset http://resources.mpi-inf.mpg.de/HDM05/<br/>
@@ -29,70 +34,81 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (3)	Processing the unit<br/>
 (4)	Transformation coordinate system<br/>
 (5)	Processing the file formats<br/>
-## Case study
 
-
-## Introduction
 
 ### Construction Dataset structure
 #### 15 joints Skeleton data structure           
 Frame #, P(1),P(2),P(3),...,P(15)，<br/>
  P(i)=>(x,y,z) position of ith joint，values are in meters <br/>
 Joint number -> Joint name <br/>
-            'Head': 0,  <br/>
-            'ShoulderCenter': 1, <br/>
-            'Spine': 2, <br/>
-            'LeftShoulder': 3, <br/>
-            'LeftElbow': 4, <br/>
-            'LeftHand': 5, <br/>
-            'RightShoulder': 6, <br/>
-            'RightElbow': 7, <br/>
-            'RightHand': 8, <br/>
-            'LeftHip': 9, <br/>
-            'LeftKnee': 10, <br/>
-            'LeftFoot': 11, <br/>
-            'RightHip': 12, <br/>
-            'RightKnee': 13, <br/>
-            'RightFoot': 14, <br/>
+            'Head': 1,  <br/>
+            'ShoulderCenter': 2, <br/>
+            'Spine': 3, <br/>
+            'LeftShoulder': 4, <br/>
+            'LeftElbow': 5, <br/>
+            'LeftHand': 6, <br/>
+            'RightShoulder': 7, <br/>
+            'RightElbow': 8, <br/>
+            'RightHand': 9, <br/>
+            'LeftHip': 10, <br/>
+            'LeftKnee': 11, <br/>
+            'LeftFoot': 12, <br/>
+            'RightHip': 13, <br/>
+            'RightKnee': 14, <br/>
+            'RightFoot': 15, <br/>
 
 #### 20 joints Skeleton data structure   
 Frame #, P(1),P(2),P(3),...,P(20)，<br/>
  P(i) =>(x,y,z) position of ith joint，values are in meters <br/>
 Joint number -> Joint name <br/>
-            'Head': 0,  <br/>
-            'ShoulderCenter': 1, <br/>
-            'Spine': 2, <br/>
-            'LeftShoulder': 3, <br/>
-            'LeftElbow': 4, <br/>
-            'LeftHand': 5, <br/>
-            'RightShoulder': 6, <br/>
-            'RightElbow': 7, <br/>
-            'RightHand': 8, <br/>
-            'LeftHip': 9, <br/>
-            'LeftKnee': 10, <br/>
-            'LeftFoot': 11, <br/>
-            'RightHip': 12, <br/>
-            'RightKnee': 13, <br/>
-            'RightFoot': 14, <br/>
-            'HipCenter': 15, <br/>
-            'LeftWrist': 16, <br/>
-            'LeftAnkle': 17, <br/>
-            'RightWrist': 18, <br/>
-            'RightAnkle': 19, <br/>
+            'Head': 1,  <br/>
+            'ShoulderCenter': 2, <br/>
+            'Spine': 3, <br/>
+            'LeftShoulder': 4, <br/>
+            'LeftElbow': 5, <br/>
+            'LeftHand': 6, <br/>
+            'RightShoulder': 7, <br/>
+            'RightElbow': 8, <br/>
+            'RightHand': 9, <br/>
+            'LeftHip': 10, <br/>
+            'LeftKnee': 11, <br/>
+            'LeftFoot': 12, <br/>
+            'RightHip': 13, <br/>
+            'RightKnee': 14, <br/>
+            'RightFoot': 15, <br/>
+            'HipCenter': 16, <br/>
+            'LeftWrist': 17, <br/>
+            'LeftAnkle': 18, <br/>
+            'RightWrist': 19, <br/>
+            'RightAnkle': 20, <br/>
 # Environment
-* windows 10
+* Windows 10
 * anaconda 
 * python 3.7
 * numpy
-# Case study
+* MATLAB
+
 ## Advantages 
 * Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
 * Visualization json file for check format in Blender.
 
+# Data Records---The CML data format for storage is JSON for sharing 
+* The JSON file can be divided into two parts. 
+* The first “meta-data” part only stores the information related to the data summary, the original dataset source, and the joint structure 
+* The second “formal-data” part only includes “tdata” (an object encloses frames of all joints over time) and “bdata” (an object includes time-series data of each joint). 
 
-## (1) 00_In-lab experiment data
-* The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point. Fig. 6 shows the Perception Neuron system we used to acquire data in the experiment.
-* The predefined awkward postures in this experiment include working overhead (WO), kneeling (KN), back bending forward (BB), squatting (SQ), neck bending (NB) and reaching (RE). 
+
+
+# Case study
+
+## 00_In-lab experiment data
+* The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point.
+
+## Dataset Alignment
+* Skeletal Structure Alignment ------Cut down joint number into 15/20-joint system
+* All samples’ units will be converted into meters
+* Resampling,  125hz----30hz
+* Coordination Transformation
 
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/01_working%20oerheading.gif" width="450" height="380" >    <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/00_In-lab%20experiment%20data/gif/02_Squatting.gif" width="450" height="380"> <br/>
 * Left picture: {"original label": "01_working overheading", "target label": "hand catch", "action type": 2} <br/>
@@ -115,20 +131,7 @@ Joint number -> Joint name <br/>
 * Left picture: {"original label": "09_bring somewhere to somewhere", "target label": "carrying", "action type": 2} <br/>
 * Right picture:  {"original label": "10_back bending", "target label": "bending", "action type": 2} <br/>
 
-## (2)Berkeley_MHAD dataset (IMU-based dataset)
-
-* Processing the number and position of joints<br/>
-30joint -----15/20joint, Adjust the order of nodes and supplement missing data.<br/>
-15nodes = [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26]<br/>
-20nodes= [7,5,3,16,18,20,9,11,22,29,31,33,22,24,26,1 missing wrist and ankle]<br/>
-The missing joint data could be computed with neighbor joint interpolation. The nonlinear interpolation utilized the Multi-Layer Perceptron (MLP) model of the scikit-learn package.<br/>
-* 480 frames per second (fps)-----30fps
-* Millimeter-----meter
-* Adopt Coordination transformation
-
-<img  src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/%E5%9B%BE%E7%89%874.png" width="800" height="615" >
-<div align=center> Skeleton data visualized in Matlab
-                                                                                                                                                      
+                                                                                     
 
 
 
