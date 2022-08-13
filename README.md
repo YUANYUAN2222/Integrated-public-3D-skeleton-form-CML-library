@@ -3,17 +3,15 @@
 
 ## Introduction
 
+The purpose of our study is to utiliz a relatively small-scale motion dataset and removed irrelevant data by aligning a standardized skeleton scheme and data framework for ease usage of consyrcution researchers and practitioners. All activities in this study are grouped into five categories, including “production activities”, “unsafe activities”, “awkward activities”, “common activities”, and “other activities”.
+
+
 To that end, the developed construction motion library contains 225 types of activities and 146,480 samples; among them, 73 types of activities and 61,275 samples are highly related to construction activities.
 
+Howvever, according to the license of dataset, only four dataset allow reuse and public, data source = ['CMU','HDM05','Berkeley','SBU'], so we public those data in Figshare.It contains 137 types of activities and 6121+10 samples; among them, 53 types of activities and 4323+10 samples are highly related to construction activities. Meanwhile, we provides full codes in this repository, which could align the data from 16 datasets.
 
-
-挑选出data source = ['CMU','HDM05','Berkeley','SBU']，四个可以修改的数据集。
-CML contains 137 types of activities and 6121+10 samples; among them, 53 types of activities and 4323+10 samples are highly related to construction activities.
-
-Custom code in the generation of datasets
 
 ## Obtain reliable raw skeleton
-
 To obtain reliable raw skeleton data, we manually selected and download available 3D skeleton sources form the official website of the institutions.<br/>
 CMU Mocap dataset http://mocap.cs.cmu.edu<br/>
 HMD05 Mocap dataset http://resources.mpi-inf.mpg.de/HDM05/<br/>
@@ -44,8 +42,8 @@ For example, the data format of RGB/RGBD-based dataset were stored in BVH or ASF
 (5)	Processing the file formats<br/>
 
 
-### Construction Dataset structure
-#### 15 joints Skeleton data structure           
+### Skeletal Structure Alignment
+#### 15 joints Skeleton structure           
 Frame #, P(1),P(2),P(3),...,P(15)，<br/>
  P(i)=>(x,y,z) position of ith joint，values are in meters <br/>
 Joint number -> Joint name <br/>
@@ -65,7 +63,7 @@ Joint number -> Joint name <br/>
             'RightKnee': 14, <br/>
             'RightFoot': 15, <br/>
 
-#### 20 joints Skeleton data structure   
+#### 20 joints Skeleton structure   
 Frame #, P(1),P(2),P(3),...,P(20)，<br/>
  P(i) =>(x,y,z) position of ith joint，values are in meters <br/>
 Joint number -> Joint name <br/>
@@ -96,11 +94,8 @@ Joint number -> Joint name <br/>
 * numpy
 * MATLAB
 
-## Advantages 
+## Data Records Advantages 
 * Existing datasets usually store activity as a separate file. However, many files have different enclosures, resulting in many labeled files having more than one activity and only having a rough tag.
-* Visualization json file for check format in Blender.
-
-# Data Records
 * The CML data format for storage is JSON for sharing 
 * The JSON file can be divided into two parts. 
 * The first “meta-data” part only stores the information related to the data summary, the original dataset source, and the joint structure 
@@ -108,7 +103,6 @@ Joint number -> Joint name <br/>
 <img src="https://github.com/YUANYUAN2222/Integrated-public-3D-skeleton-form-CML-library/blob/main/Json_Structure.png" width="900" height="300" >
 
 # Case study
-
 ## 00_In-lab experiment data
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point.
 
