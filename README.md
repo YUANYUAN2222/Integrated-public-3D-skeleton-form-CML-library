@@ -104,7 +104,7 @@ Joint number -> Joint name <br/>
 ## 00_In-lab experiment data
 * The subjects wear Noitom Perception Neuron, a motion capturing system, while they were performing activities in both phases. The Perception Neuron system is able to wirelessly connect to a laptop computer and send data to the computer via Wi-Fi when both of them are connected to the same access point.
 
-# Dataset Alignment
+## Dataset Alignment
 * Skeletal Structure Alignment ------Cut down joint number into 15/20-joint system
 * All samples’ units will be converted into meters
 * Resampling,  125hz----30hz
