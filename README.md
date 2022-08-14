@@ -9,6 +9,8 @@ We would thank the reviewer’s interest in this work and helpful comments that 
 
 To that end, the developed construction motion library contains 225 types of activities and 146,480 samples; among them, 73 types of activities and 61,275 samples are highly related to construction activities.All activities in this study are grouped into five categories, including “production activities”, “unsafe activities”, “awkward activities”, “common activities”, and “other activities”.
 
+We have carefully reviewed the licenses of all the current datasets. We found more than half of the datasets did not specify their licenses and usage policy. Therefore, in the revised version, we only shared the tagged and processed dataset that clearly allows redistribution and modification. For the rest of the datasets, we highlighted their URL and doi (all of them are publicly accessible and free for use). Instead of providing processed datasets, we shared our quantitative neural network model and code that can retag and process (such as converting to predefined .bvh files) these datasets and allows the readers and users to process the source dataset by themselves.
+
 Howvever, according to the license of dataset, only four dataset allow reuse and public, data source = ['CMU','HDM05','Berkeley','SBU'], so we public those data in Figshare.It contains 137 types of activities and 6121+10 samples; among them, 53 types of activities and 4323+10 samples are highly related to construction activities. Meanwhile, we provides full codes in this repository, which could align the data from 16 datasets.
 
 
