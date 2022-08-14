@@ -3,10 +3,11 @@
 
 ## Introduction
 
-The purpose of our study is to utiliz a relatively small-scale motion dataset and removed irrelevant data by aligning a standardized skeleton scheme and data framework for ease usage of consyrcution researchers and practitioners. All activities in this study are grouped into five categories, including “production activities”, “unsafe activities”, “awkward activities”, “common activities”, and “other activities”.
+The purpose of our study is to utiliz a relatively small-scale motion dataset and removed irrelevant data by aligning a standardized skeleton scheme and data framework for ease usage of consyrcution researchers and practitioners.By doing so, the developed CML datasets not only ensure all samples are relevant to construction actives and properly tagged, but also constructed a huge dataset that has all samples have the same skeleton system, similar frame length, and same data structure. 
+We would thank the reviewer’s interest in this work and helpful comments that improve the quality of this study. 
 
 
-To that end, the developed construction motion library contains 225 types of activities and 146,480 samples; among them, 73 types of activities and 61,275 samples are highly related to construction activities.
+To that end, the developed construction motion library contains 225 types of activities and 146,480 samples; among them, 73 types of activities and 61,275 samples are highly related to construction activities.All activities in this study are grouped into five categories, including “production activities”, “unsafe activities”, “awkward activities”, “common activities”, and “other activities”.
 
 Howvever, according to the license of dataset, only four dataset allow reuse and public, data source = ['CMU','HDM05','Berkeley','SBU'], so we public those data in Figshare.It contains 137 types of activities and 6121+10 samples; among them, 53 types of activities and 4323+10 samples are highly related to construction activities. Meanwhile, we provides full codes in this repository, which could align the data from 16 datasets.
 
