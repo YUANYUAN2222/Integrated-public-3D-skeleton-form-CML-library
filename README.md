@@ -3,12 +3,13 @@
 
 ## Introduction
 
-The purpose of our study is to establish a 3D skelelton dataset for recognizing constrcution workers. Through collecting 16 relatively small-scale motion dataset, aligning a standardized skeleton scheme and removing irrelevant data, the developed CML datasets not only ensure all samples are relevant to construction actives and properly tagged, but also constructed a huge dataset that has all samples have the same skeleton system, similar frame length, and same data structure. 
+Our study aims to establish a 3D skeleton dataset for recognizing construction workers. Through collecting 16 relatively small-scale motion datasets, removing irrelevant data, and aligning all data according to a standardized skeleton scheme, the developed CML datasets not only ensure all samples are relevant to construction actives and properly tagged but also constructed a large dataset that has all samples have the same skeleton system, similar frame length, and same data structure.  
 
-However, We have carefully reviewed the licenses of all the current datasets. We found more than half of the datasets did not specify their licenses and usage policy. Therefore, in this version, we only shared the tagged and processed dataset that clearly allows redistribution and modification. For the rest of the datasets, we highlighted their URL and doi (all of them are publicly accessible and free for use). Instead of providing processed datasets, we provides full preprocess codes in this repository, which could be used to align different skeleton data from 16 public 3D skeleton datasets. 
+However, We have carefully reviewed the licenses of all the current datasets. We found more than half of the datasets did not specify their licenses and usage policy. Therefore, in this version, we only shared the tagged and processed dataset that clearly allows redistribution and modification. For the rest of the datasets, we highlighted their URL and doi (all of them are publicly accessible and free for use). Instead of providing processed datasets, we provide full preprocess codes in this repository, which could be used to align different skeleton data from 16 public 3D skeleton datasets. 
 The code could retag and process (such as converting to predefined .bvh files) these datasets and allow all readers and users to process the source dataset by themselves.
 
-Public version： Construction Motion Data Library(CML) contains contains 137 types of activities and 6131 samples(ALL_DATA); among them, 53 types of activities and 4333 samples are highly related to construction activities ( Construction_Related_Data). 
+Public version： Construction Motion Data Library(CML) contains 137 types of activities and 6131 samples(ALL_DATA); among them, 53 types of activities and 4333 samples are highly related to construction activities ( Construction_Related_Data).
+
 
 Downlaod CML DOI: https://doi.org/10.6084/m9.figshare.20480787.v1. 
 
