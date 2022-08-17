@@ -14,7 +14,7 @@ Downlaod CML DOI: https://doi.org/10.6084/m9.figshare.20480787.v1.
 
 
 
-## Obtain 16 relatively small-scale motion dataset：
+## Obtain public motion dataset：
 To obtain reliable raw skeleton data, we manually selected and download available 3D skeleton sources form the official website of the institutions.<br/>
 CMU Mocap dataset http://mocap.cs.cmu.edu<br/>
 HMD05 Mocap dataset http://resources.mpi-inf.mpg.de/HDM05/<br/>
