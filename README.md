@@ -8,6 +8,8 @@ Our study aims to establish a 3D skeleton dataset for recognizing construction w
 However, We have carefully reviewed the licenses of all the current datasets. We found more than half of the datasets did not specify their licenses and usage policy. Therefore, in this version, we only shared the tagged and processed dataset that clearly allows redistribution and modification. For the rest of the datasets, we highlighted their URL and doi (all of them are publicly accessible and free for use). Instead of providing processed datasets, we provide full preprocess codes in this repository, which could be used to align different skeleton data from 16 public 3D skeleton datasets. 
 The code could retag and process (such as converting to predefined .bvh files) these datasets and allow all readers and users to process the source dataset by themselves.
 
+Experiment  version:  It contains over 61,275 samples (10 million frames) from 73 classes performed by about 300 different subjects.The dataset includes four fundamental categories of activities, including Production Activities(12), Unsafe Activities(38), Awkward Activities(10), and Common Activities(13).  
+
 Public version： Construction Motion Data Library(CML) contains 137 types of activities and 6131 samples(ALL_DATA); among them, 53 types of activities and 4333 samples are highly related to construction activities ( Construction_Related_Data).
 
 
